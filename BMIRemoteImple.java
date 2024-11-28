@@ -1,7 +1,6 @@
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.RemoteException;
 
-
 public class BMIRemoteImple extends UnicastRemoteObject implements BMIRemote {
     
     public BMIRemoteImple() throws RemoteException {
@@ -24,4 +23,3 @@ public class BMIRemoteImple extends UnicastRemoteObject implements BMIRemote {
         }
     }
 }
-
